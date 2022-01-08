@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Cagliostro', sans-serif;
+    position: relative;
+}
+
+/* Additional styles */
+:root{
+    --main-color: rgba(13, 172, 151, 0.514) ;
+    --text-color: white ;  
+}
+p, h1{
+    pointer-events: none;
+}
+a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+img{
+    width: 100%;
+}
+
+/* Section-1 Styles */
+.section-1{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(Images/bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding: 20px ;
+    text-align: center;
+}
+nav{
+   display: none;
+   width: 100vw;
+   padding: 10px;
+   justify-content: space-around;
+   align-content: center;
+   background-color: rgba(13, 172, 151, 0.952)  ;
+   position: fixed;
+   top: 0;
+   right: 0;
+}
+
+li{
+    list-style: none;
+}
+.header{
+  margin: 8rem auto;
+  color: black;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.363);
+}
+.header h1{
+    font-size: 3.5rem;
+    margin: 3rem auto;
+}
+.header p{
+    color: rgb(43, 42, 42);
+}
+.button{
+    margin: 2rem auto;
+    width: 20ch;
+    padding: 10px;
+    background-color: var(--main-color);
+    border-radius: 30px;
+}
+
+/* Section-2 styles */
+.section-2{
+    text-align: center;
+    margin: 2rem auto;
+    padding: 20px;
+}
+.section-2 h1{
+    font-size: 3rem;
+}
+.enchanted-f{
+    display: flex;
+    flex-direction: column;
+}
+.enchanted-a{
+    display: flex;
+    flex-direction: column;
+}
+.pic{
+    margin: 2rem auto;
+}
+.text{
+    color: rgb(43, 42, 42);
+}
+.text h2{
+    font-size: 1.8rem;
+}
+.text p{
+    font-size: .9rem;
+    margin: 1rem auto;
+}
+
+/* Footer */
+
+.footer{
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    background-color: var(--main-color);
+    color: rgb(43, 42, 42);
+}
+.social{
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10%;
+    justify-content: space-around;
+    margin: 1.5rem auto;
+}
+.footer p{
+    font-size: .8rem;
+}
